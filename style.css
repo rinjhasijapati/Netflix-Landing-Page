@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+*{
+    margin : 0;
+    padding : 0;
+    outline : 0;
+    border : 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height : 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    position: relative;
+    top: 10px;
+    left: 40px;
+}
+
+.btn-join{
+    color : white;
+    background-color: red;
+    padding: 0.55rem 1.7rem;
+    border: 1px solid;
+    border-color: red;
+    border-radius: 0.2rem;
+    font-size: 0.9rem;
+    display: inline-block;
+    transition: all 300ms ease;
+
+    position: relative;
+    top: -27px;
+    left: 83%;
+
+    text-decoration: none;
+}
+
+.btn-sign{
+    color : white;
+    background-color: black;
+    padding: 0.55rem 1.7rem;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 0.2rem;
+    font-size: 0.9rem;
+    display: inline-block;
+    transition: all 300ms ease;
+
+    position: relative;
+    top: -27px;
+    left: 83.5%;
+
+    text-decoration: none;
+}
+
+.btn-sign:hover{
+    cursor : pointer;
+    background-color: grey;
+    /* border : 1px solid white;
+    color: coral; */
+}
+
+.btn-join:hover{
+    cursor : pointer;
+    background-color: darkred;
+    color: darkred;
+}
+
+.text-gray{
+    color : grey;
+}
+
+.container{
+    width: 100%;
+    height: 7.5%;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.font-image{
+    position: relative;
+    top: -700px;
+    left: 75px;
+}
+
+.title-name{
+    font-weight: bolder;
+    color: black;
+    position: relative;
+    top: -660px;
+    left: 65px;
+}
+
+#text1{
+    font-weight: bolder;
+    position: relative;
+    top: -640px;
+    left: 65px;
+}
+
+#text2{
+    font-weight: bold;
+    position: relative;
+    top: -620px;
+    left: 65px;
+}
+
+#text3{
+    font-weight: bold;
+    position: relative;
+    top: -600px;
+    left: 65px;
+}
+

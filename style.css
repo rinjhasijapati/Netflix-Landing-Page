@@ -70,7 +70,6 @@ body{
 .btn-join:hover{
     cursor : pointer;
     background-color: darkred;
-    color: darkred;
 }
 
 .text-gray{
